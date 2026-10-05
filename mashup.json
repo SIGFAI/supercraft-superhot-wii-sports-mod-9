@@ -1,0 +1,364 @@
+{
+  "id": "sigf/supercraft-superhot-wii-sports-mod-9",
+  "version": "1.0.0",
+  "name": "SUPERCRAFT, mod 9: SUPERHOT × Wii Sports",
+  "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Wii Sports with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "wiisports",
+      "role": "guest",
+      "label": "Wii Sports",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "supercraft-superhot-wii-sports-mod-9.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/mii_face.png",
+              "sha256": "8523be0ae38b9a94615865115ecd064aa9cc317dc2e2f601d314617f16d8222f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/aww.wav",
+              "sha256": "c5a47015abe3000ecd018ca67d9121e83909b942fc30ab6c22d62ce5153ebb95"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/ball_roll.wav",
+              "sha256": "17d7547bbf921e7877894597598bae24fc87a768d2b19c0d9c95c97cec52d18d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/bat_crack.wav",
+              "sha256": "d07c39418cd49107df826227fc51b67f5dbc711f4435b577790d015a158425fc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/bell.wav",
+              "sha256": "a892c251b9603de60715962ab375a6817da5587c228ea34efea7770806e60124"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/crowd_big.wav",
+              "sha256": "005841296f09ea0bd41d3e30ac3ba487f7a25f3a7dadb513986ae6cbee58866b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/crowd_cheer.wav",
+              "sha256": "1921b2c3db9b45d5e869151b5f349bc0786d78f4feb55c78fa40dde85402ed55"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/crowd_cheer2.wav",
+              "sha256": "c1e302613c9b8732e3c8ae2e0b21b5e83e2d112dd5e1408abadd24564da8ed24"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/glove_punch.wav",
+              "sha256": "c4b18567e0f2ad85415d22b0e048ab17a99df2090c4dc6a45ba390fe15d6a48c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/glove_punch2.wav",
+              "sha256": "b088b851d58cc180a9f5fd4897addb04fa12dc0fca4ed3d891509091d0a70a0c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/music_loop.wav",
+              "sha256": "52332b6afb3454034d4da2517947aa03e614334554f37b7be7fcbf1350a7d1dc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/pin_crash.wav",
+              "sha256": "3cb17d78efa808bd00ecd5fcf1f938d6cd9ee2b228e4f52274e06784fc0a7b41"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/pop.wav",
+              "sha256": "032dece1f408d7133a8f9309ce934a6f84b9fd72a858d877d240c08c53880f41"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/remote_spin.wav",
+              "sha256": "367a060404488aed8b25c22ae99fbbb86f022ad6a5a340f26b851c4b4f682aa9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/swoosh.wav",
+              "sha256": "009b6742497fd1146f14cbf724c0310cdd66ead2a466452c71672c43c84a5723"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/whistle.wav",
+              "sha256": "ec912e26ccf34b7b2489391d26040742b2ce28947b9a44a191bcea8ddab1e39f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/bat_wood.png",
+              "sha256": "0ff0681a9e1a2aa39739a6651a43424c285f52961e05a0ee48784cb295a6096f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/lane_wood.png",
+              "sha256": "7f0ff470a080f3263e3dee18d921493935ae54c7a95b66696336ce91485923c9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_bullets.png",
+              "sha256": "cb3c1d04cb0d894f6451a84a8f45568dbc2e0ff8f658e3687bfdfd0b32ce52a3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_crowd.png",
+              "sha256": "a156bc49b5b900fc49357a4da246e9577a1dcd98a257eda5abc0361df0208b7d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_goal_baseball.png",
+              "sha256": "9018ad1ed0ac0dfee1c6b0275725ccef6cda8fa5f7264dce0c488017019cc7dc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_goal_bowling.png",
+              "sha256": "97fa80db61b629c1270805d0aeaa33499e2244686f7449c0dbeac43e7c3f8b87"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_goal_boxing.png",
+              "sha256": "b8769990a089f1a597f8e0e0eb4016384274050621093e292b6a52fa4aaaf5ce"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_hold.png",
+              "sha256": "6f5bc96971f7c7bee6de0fb5c2fa904cabe1588d19709f338e00dd34dac848b4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_keys.png",
+              "sha256": "ae3af1546a4690a7d0cf833e045dac5dc7e896ecf0457a41147c1315bc28588d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_mix.png",
+              "sha256": "837ee55f334fb9c1eaeee531e35d7389e75b1d08fa40c75e80c1b56543794b5b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_power.png",
+              "sha256": "65b7690c1e5225d2d089ec49cd20f779808733485720661e19cd085e25f6e080"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_strap.png",
+              "sha256": "b4af3ff14e99905400994d2b05dec0f609c9201a59cac571597a50812626e053"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/cap_time.png",
+              "sha256": "50e969f22ef4904f63d6dd119a4e86bf1f02cd7131978d03bc81a4fbb0dd0abe"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/double.png",
+              "sha256": "0b34b04d35a7a40e9ba408a94b48ba7ad1283886ffb0e0f95a6137ea2258d528"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/foul.png",
+              "sha256": "f4690df629441431fd568c69f1b6ef50919be5c9e1239b186c9c65d96ee1928b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/good.png",
+              "sha256": "3fa5b8728e4d4091944121b2c7eec57fa464558092258be7a1bb32751d90cb77"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/homerun.png",
+              "sha256": "d1eafdecd5708c35ba316f07ca1150ed2d0fce688c5f3b3b5da6009c6cf63727"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/ko.png",
+              "sha256": "8cd8b8a55c8ca1388a00769dc3e7b799407e7fb68108dd7ba9f9ddda081b6e27"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/meter_fill.png",
+              "sha256": "34e4b67b5606252d0489632b9bdffa2f32cbc3fbe86eccb35c324a9623268243"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/meter_frame.png",
+              "sha256": "4a01720ee1e1d431a23e4dc068c7ecf4aef8e42b0984d3f21db4dfd3fca90e18"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/nice.png",
+              "sha256": "64f8f9952725d2d3867117b191d63617a15b50e6dce79ba9a86dc3aa52360fe5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/out.png",
+              "sha256": "1a3e46fc17bef0e92023d2d838cfeb09d0422015de62ac3ebff7e54cc34ba626"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/panel.png",
+              "sha256": "eaeda72804ecb4c6f2ce42d7a7661003600774f784000cc2cb10d9b3b8fa3038"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/perfect.png",
+              "sha256": "59d67a00e1cbbf6c56381b7d990f2fbb19dde3e1b1af001a8e00913d672dcfe4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/s_baseball.png",
+              "sha256": "88cc3e7df59e4468d5f31804698b6c05a81202146bb9fbd3034fa6b90f8ee9a6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/s_bonus.png",
+              "sha256": "41808d71e850063eaf3fdf377c8a657bceb0a6e299f814e1c62864e51f542501"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/s_bowling.png",
+              "sha256": "87cb7e997b9216d113d5b34d85e772fe123c5841be3b05b4c45822f96a319316"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/s_boxing.png",
+              "sha256": "b312f3c5623a6b9c43e6ec10e02f88b49e64f5d22c1e79c13517cce546fef6ad"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/s_homeruns.png",
+              "sha256": "dc4a45645b19c58186a128f0fbaafad01531e8cf8e8b9161d73da0acfd8784a1"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/s_ko.png",
+              "sha256": "419e34fa80ce566e85064a20923e8f451d05fde8762ef25d8e3a11f878663eb1"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/s_remotes.png",
+              "sha256": "0c2b8eb3cff369820bc0a99d0e31b87e77694ea924626dac2d45008abf7c7e4b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/s_strikes.png",
+              "sha256": "f77f998c3d3855ca8d9d62e6225fb618378cfacda607155dc9f50153d0023782"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd0.png",
+              "sha256": "76d64aa31cbf7420e9236c2b079787ad9282062b8350e94f1598ea2f10c870d1"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd1.png",
+              "sha256": "71e7f4b9e14ba9d46c0210b3ec5332926a169cf22121aae9fcf2f9db39d860ab"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd2.png",
+              "sha256": "d6f5af4c59b0ad1888553b369cdb9b79dee99d4444882e7211601199e62d60a0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd3.png",
+              "sha256": "8787537746047dbe115886b03418b46c1da14545d8523a1cf5413efc5d50e17d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd4.png",
+              "sha256": "7bed092aba10473172d19db6153dc270ce6431dcc6761fe9afadd5ad061cca70"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd5.png",
+              "sha256": "3ad2e4fedb0cec7de8bccaa1e503c317ecaf10b22e1e0bc995e9505b77806c25"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd6.png",
+              "sha256": "7d98547fd5c140c27df2a17151b5b9de4668a1c095d27201ee15276fbadfc09b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd7.png",
+              "sha256": "d40d9dd88e125d8927dab5ef8a69a329fe382f46162fbbcde9ba52ac9901418d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd8.png",
+              "sha256": "87fb0f391450e993fd944bd5944791d9deba65ce925ddc4cd8a4a4aa129e7640"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sd9.png",
+              "sha256": "01c8e9a6be046c86779889f2f9469f35014b249587b247c93d21081d908a5967"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sdslash.png",
+              "sha256": "29799a21e3e27cc4c08c52a281f3ec080ce2a0930e7f4f215882bbb2808980e8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/sender.png",
+              "sha256": "e69e35d98a4e0cf2c7478b609a080b7f6d541d21682230dafb41285ff776bcd4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/spare.png",
+              "sha256": "4b6669cfe6cb3bdf2740710473a0d6549b26c691d1ce911fa499b7556affc785"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/strike.png",
+              "sha256": "dc58828e1b91aaa630f1580e001be798c331a21a543e117061d5e09a126a7ebb"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/t_baseball.png",
+              "sha256": "60a9bf31fa9204442540357f3442b3939af5f5cb87b4b8e05be346c02a610399"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/t_bowling.png",
+              "sha256": "5c390d804c6b6fd04ac435a8d20ebad42d31448d9981167171e059c5a83b7921"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/t_boxing.png",
+              "sha256": "0e1cbeae0ea1d182c94b14e0c0b267cd0602538841744a0e3c4d5852cbec3f0c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/t_done.png",
+              "sha256": "4aaa341a3b685d75fae2db98df48c6c2d4711f3d01f4726edaf1468e6691d127"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/t_strap.png",
+              "sha256": "5e4f955519af1475c1fde30533196671ebbb3064f97759ff440126c2e1e297e4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/t_title.png",
+              "sha256": "8eb33caf2124dbd146796efd8f8134bc8f8310f720ba8a8f63e817d483bd6e01"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/turkey.png",
+              "sha256": "d2e0955bc05f8895334a1e6e421b2f52cab7adba5567e7f45946313c9275589f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/warn_strap.png",
+              "sha256": "4e20b9002d5da5271466416c3a68b352c93a4ed7ec720ed540c2bee870784e2f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/whiff.png",
+              "sha256": "34c27208cb0292e5611ac85b07e820ac0e0fe92e2401892e1c23d91abd0c801f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "5d1fd8651f0109fd0d84eb2f7d107ff1cc6df87fdd1c42968ce12869e7f44ddb"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "49a3a281a746776de806c160d57f6c6b20b4982b22a5ebcf6a6106e5b456bf00"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/supercraft-superhot-wii-sports-mod-9/releases/download/v1.0.0/supercraft-superhot-wii-sports-mod-9.zip",
+          "sha256": "67e8c695eb722bd2141e0d5e5746103fa0b9b83c294452b75ccbdda91d254b0c",
+          "size": 9166456
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "supercraft-superhot-wii-sports-mod-9.zip",
+      "url": "https://github.com/SIGFAI/supercraft-superhot-wii-sports-mod-9/releases/download/v1.0.0/supercraft-superhot-wii-sports-mod-9.zip",
+      "sha256": "67e8c695eb722bd2141e0d5e5746103fa0b9b83c294452b75ccbdda91d254b0c",
+      "size": 9166456
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/supercraft-superhot-wii-sports-mod-9",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SUPERCRAFT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:28:01.668Z"
+}
